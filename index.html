@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Bloc Dog API GET Assingment"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog API Simple GET Request</title>
+  </head>
+  <body>
+    <section id="container">
+      <h1 class="display-4 mb-4">Dog API</h1>
+      <hr />
+      <div id="input"></div>
+      <form id="dog-num-form">
+        <div class="form-group">
+          <h3>How many dog photos? limit 50</h3>
+          <input
+            type="text"
+            id="num-dog"
+            class="form-control"
+            placeholder="3"
+            required
+          />
+        </div>
+        <div class="button">
+          <input
+            type="submit"
+            id="get"
+            class="btn btn-primary mr-4 get-dog-btn"
+            value="Get Dog Photo!"
+          />
+        </div>
+        <div class="results hidden"> 
+ <h3>Enjoy your pups!</h3>
+</div>
+      </form>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
